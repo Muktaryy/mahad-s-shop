@@ -14,5 +14,5 @@ if st.button("Submit", type="primary"):
 
     st.success("Reciept ready!")
     st.write(f"{name}")
-    st.write(f"{item}x{quantity} ")
-    st.write(f"Total: ${total:.of}")
+    st.write(f"{item}×{quantity} ")
+    st.write(f"Total: ${total:.0f}")
